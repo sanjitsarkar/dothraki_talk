@@ -1,0 +1,4 @@
+body{
+    background: url('../img/dothraki.jpg');
+    backdrop-filter: blur(10px);
+}

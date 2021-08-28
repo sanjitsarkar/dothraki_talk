@@ -5,8 +5,8 @@ $primary_color:rgb(6, 176, 255);
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(rgba(6, 93, 255, 0.637)),url('../img/dothraki.jpg');
-    backdrop-filter: blur(5px);
+    background: linear-gradient(rgba(6, 93, 255, 0.52)),url('../img/dothraki.jpg');
+    backdrop-filter: blur(10px);
     height: 100vh;
     // font-size: 80%;
 }

@@ -1,3 +1,103 @@
+$primary_color:rgb(6, 176, 255);
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-    background: url('../img/dothraki.jpg');
+    background: linear-gradient(rgba(6, 93, 255, 0.637)),url('../img/dothraki.jpg');
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    // font-size: 80%;
+}
+
+
+
+header.header
+{
+    .title{
+        // color:rgb(10, 28, 53);     
+        color:rgb(10, 28, 53);     
+        font-size: 3em;
+        text-align: center;
+@media screen and (max-width:700px) {
+    font-size: 2rem;
+}
+    } 
+    padding: .5rem 0;
+     background: rgba(255, 255, 255, 0.356);
+
+}
+main{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ::placeholder{
+        // text-align: center;
+        color: rgba(47, 47, 47, 0.87);
+    }
+    textarea{
+        resize: none;
+        width: 50%;
+        height: 20vh;
+        padding: 1rem;
+       font-size: 1em;
+        outline: none;
+        border: none;
+        background: rgba(255, 255, 255, 0.582);
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.274);
+@media screen and (max-width:700px) {
+    width: 90%;
+}
+    }
+    button{
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.274);
+        padding: 1rem;
+       background: rgb(6, 176, 255);
+       color:white;
+        outline: none;
+        border: none; 
+        font-size: .9rem;
+        margin: 1rem 0; 
+        &:hover{
+            transition: all .3s ease-in-out;
+            color:rgb(6, 93, 255);
+            background: white;
+            cursor: pointer;
+        }
+    }
+}
+footer{
+    width: 100%;
+   margin-top: 10%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    padding: 2rem;
+    // height:30vh;
+@media screen and (max-width:700px) {
+   position: relative;
+   margin-top: 10%;
+
+    // height:30vh;
+   
+
+}
+    .sub_title{
+text-align: center;
+font-size: 2em;
+margin-bottom: .5rem;
+    }
+    p{
+color:rgba(0, 0, 0, 0.849);
+// text-align: justify;
+line-height: 1.4;
+height:100%;
+// white-space: nowrap;
+ 
+
+    }
+    background: rgba(255, 255, 255, 0.356);
+
 }
